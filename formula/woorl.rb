@@ -7,7 +7,7 @@ class Woorl < Formula
   license "Apache 2.0"
   bottle :unneeded
 
-  depends_on "erlang"
+  depends_on "erlang" => :recommended
   depends_on "git" => :build
   depends_on "rebar3" => :build
 

@@ -3,7 +3,7 @@ class Woorl < Formula
   homepage "https://github.com/rbkmoney/woorl"
   url "https://github.com/rbkmoney/woorl/",
     using: :git,
-    tag: "1.4"
+    tag: "1.5"
   license "Apache 2.0"
   bottle :unneeded
 

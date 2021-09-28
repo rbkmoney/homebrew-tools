@@ -10,6 +10,7 @@ class Woorl < Formula
   depends_on "erlang" => :recommended
   depends_on "git" => :build
   depends_on "rebar3" => :build
+  depends_on "rbkthrift" => :run
 
   def install
     system "rebar3", "escriptize"
